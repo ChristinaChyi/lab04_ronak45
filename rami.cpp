@@ -33,7 +33,7 @@ bool isPrime(int x) {
 	}
 	for (int n=2; n<x; n++) 
 	{
-		if (x % n == 0)
+		if (n % x == 0)
 		{
 			prime = false;
 			break;
